@@ -1,0 +1,354 @@
+//----------------------------------------------------------------------------
+//  Project Winpoly
+//  
+//  Copyright © 1998. All Rights Reserved.
+//
+//  SUBSYSTEM:    Winpoly Application
+//  FILE:         polymain.h
+//  AUTHOR:       Sergey Gershtein
+//
+//  OVERVIEW
+//  ~~~~~~~~
+//  Constant definitions for all resources defined in polymain.rc.
+//
+//----------------------------------------------------------------------------
+#if !defined(polymain_rh)   // Sentry use file only if it's not already included.
+#define IDD_BUILDROUTE	4
+#define IDC_STATICBITMAP1	101
+#define IDC_BUTTON5	101
+#define IDC_PICTURE	101
+#define IDC_CHECKBOX4	112
+#define IDC_CB_GRID	113
+#define IDC_LISTBOX1	105
+#define IDC_LBTRACE	105
+#define IDC_EDIT4	112
+#define IDC_EPADD	112
+#define IDC_CB_DRAWCOND	114
+#define IDC_TMEMO	104
+#define IDC_G_PARMS	111
+#define IDC_GROUPBOX8	109
+#define IDC_GB_DENSITY	109
+#define IDC_GB_TRACE	108
+#define IDC_COMBOBOX1	105
+#define IDC_BUTTON6	106
+#define IDC_B_TRADD	106
+#define IDC_BUTTON7	107
+#define IDC_B_TRDEL	107
+#define IDC_GROUPBOX7	108
+#define IDC_BUTTON4	102
+#define IDC_B_CLOSE	102
+#define IDC_TRACKBAR1	103
+#define IDC_TB_DENSITY	103
+#define IDC_BRVIEW	3
+#define IDC_GROUPBOX4	101
+#define IDC_STATICTEXT7	102
+#define IDC_T_TIME	102
+#define polymain_rh
+
+
+//
+// Application specific definitions:
+//
+#define IDD_PARAM	2
+#define IDC_TPROBLEM	102
+#define IDC_STATICTEXT1	103
+#define IDC_V_TIME	103
+#define IDC_GROUPBOX5	104
+#define IDC_G_CUR	104
+#define IDC_G_FILE	101
+#define IDC_STATICTEXT8	104
+#define IDC_CHECKBOX3	110
+#define IDC_CB_BW	110
+#define IDC_CB_COLOR	110
+#define IDC_STATICTEXT9	105
+#define IDC_T_SNO	105
+#define IDC_STATICTEXT11	108
+#define IDC_V_SNO	108
+#define IDC_STATICTEXT10	106
+#define IDC_T_NSECT	106
+#define IDC_RADIOBUTTON1	104
+#define IDC_RB_M_CURRENT	104
+#define IDC_RADIOBUTTON2	105
+#define IDC_RB_M_SQUARE2	105
+#define IDC_STATICTEXT2	101
+#define IDC_HT	101
+#define IDC_EDIT1	106
+#define IDC_ET	106
+#define IDC_STATICTEXT3	107
+#define IDC_V_NSECT	107
+#define IDC_EDIT2	108
+#define IDC_EDELTA	108
+#define IDC_STATICTEXT4	109
+#define IDC_T_STIME	109
+#define IDC_EDIT3	110
+#define IDC_V_STIME	110
+#define IDC_SCROLLBAR1	111
+#define IDC_SCR_TIME	111
+#define IDC_BUTTON3	112
+#define IDC_ESIEVE	110
+#define IDC_GROUPBOX2	111
+#define IDC_GFIXEDT	111
+#define IDC_RADIOBUTTON3	112
+#define IDC_RB_FIXEDT	112
+#define IDC_RADIOBUTTON4	113
+#define IDC_RB_NFIXEDT	113
+#define IDC_BUTTON1	114
+#define IDC_B_OK	114
+#define IDC_BUTTON2	115
+#define IDC_BCANCEL	115
+#define IDC_B_CANCEL	115
+#define IDC_GROUPBOX3	116
+#define IDC_GSURVIVE	116
+#define IDC_RADIOBUTTON5	117
+#define IDC_RADIOBUTTON6	118
+#define IDC_RB_NSURVIVE	118
+#define IDC_RB_SURVIVE	117
+#define IDC_CHECKBOX2	116
+#define IDC_TSIEVE	109
+#define IDC_HDELTA	107
+#define IDC_GROUPBOX1	103
+#define IDC_GM	103
+#define IDD_STEP	1
+#define IDC_START	1
+#define IDC_PROGRESSBAR	101
+#define IDC_TEXTT	102
+#define IDC_VALUE_T	103
+#define IDC_TEXTDELTA	104
+#define IDC_VALUE_DELTA	105
+#define IDC_TEXT_TIME	106
+#define IDC_VALUE_TIME	107
+#define IDC_TEXTVC	108
+#define IDC_VALUE_VC	109
+#define IDC_VALUE_PERCENT	110
+#define IDC_CHECKBOX1	111
+#define IDC_CB_PAUSE	111
+#define IDC_STATICTEXT5	112
+#define IDC_T_STEP	112
+#define IDC_STATICTEXT6	113
+#define IDC_V_STEP	113
+#define IDC_GROUPBOX6	114
+#define IDC_STATICTEXT12	115
+#define IDC_V_COMMENT	115
+#define IDC_STATICTEXT13	116
+#define IDC_T_NPOLY	116
+#define IDC_STATICTEXT14	117
+#define IDC_V_NPOLY	117
+#define IDC_STATICTEXT15	118
+#define IDC_STATICTEXT16	119
+#define IDC_V_NHOLES	119
+#define IDC_T_NHOLES	118
+#define IDC_VALUE_PC	113
+#define IDC_TEXTPC	112
+#define IDC_STOP	2
+
+#define IDI_SDIAPPLICATION      1001            // Application icon
+
+#define IDM_SDI                 100             // Menu resource ID and Accelerator IDs
+#define CM_BUILDROUTE	11846
+#define CM_BRIDGEITEM1	18873
+#define CM_BUILDBRIDGE	11845
+#define CM_ITEM1	18873
+#define CM_BRIDGE	11844
+#define CM_POPUPITEM2	18873
+#define CM_UNITE	11843
+#define CM_INTERSECT	11842
+
+#define IDM_PRINTPREVIEW        200             // Accelerator ID for Print Preview window.
+
+//
+// CM_FILEnnnn commands (include/owl/editfile.rh except for CM_FILEPRINTPREVIEW)
+//
+#define CM_FILENEW              24331           // SDI New
+#define CM_FILEOPEN             24332           // SDI Open
+#define CM_FILECLOSE            24339
+#define CM_FILESAVE             24333
+#define CM_FILESAVEAS           24334
+#define CM_FILEPRINT            24337
+#define CM_FILEPRINTERSETUP     24338
+#define CM_FILEPRINTPREVIEW     24340
+
+
+//
+// Window commands (include/owl/window.rh)
+//
+#define CM_EXIT                 24310
+
+
+//
+// CM_EDITnnnn commands (include/owl/window.rh)
+//
+#define CM_EDITUNDO             24321
+#define CM_EDITCUT              24322
+#define CM_EDITCOPY             24323
+#define CM_EDITPASTE            24324
+#define CM_EDITDELETE           24325
+#define CM_EDITCLEAR            24326
+#define CM_EDITADD              24327
+#define CM_EDITEDIT             24328
+
+
+//
+// Search menu commands (include/owl/editsear.rh)
+//
+#define CM_EDITFIND             24351
+#define CM_EDITREPLACE          24352
+#define CM_EDITFINDNEXT         24353
+
+
+//
+// Help menu commands.
+//
+#define CM_HELPCONTENTS         2001
+#define CM_HELPUSING            2002
+#define CM_HELPABOUT            2009
+
+
+//
+// Context sensitive help cursor.
+//
+#define IDC_HELPCURSOR          24000
+
+
+//
+// About Dialogs
+//
+#define IDD_ABOUT               22000
+#define IDC_VERSION             22001
+#define IDC_COPYRIGHT           22002
+#define IDC_DEBUG               22003
+
+
+//
+// OWL defined strings
+//
+
+//
+// Statusbar
+//
+#define IDS_MODES               32530
+#define IDS_MODESOFF            32531
+
+//
+// EditFile
+//
+#define IDS_UNTITLED            32550
+#define IDS_UNABLEREAD          32551
+#define IDS_UNABLEWRITE         32552
+#define IDS_FILECHANGED         32553
+#define IDS_FILEFILTER          32554
+
+//
+// EditSearch
+//
+#define IDS_CANNOTFIND          32540
+
+
+//
+// General & application exception messages (include/owl/except.rh)
+//
+#define IDS_UNKNOWNEXCEPTION    32767
+#define IDS_OWLEXCEPTION        32766
+#define IDS_OKTORESUME          32765
+#define IDS_UNHANDLEDXMSG       32764
+#define IDS_UNKNOWNERROR        32763
+#define IDS_NOAPP               32762
+#define IDS_OUTOFMEMORY         32761
+#define IDS_INVALIDMODULE       32760
+#define IDS_INVALIDMAINWINDOW   32759
+#define IDS_VBXLIBRARYFAIL      32758
+
+//
+// Owl 1 compatibility messages
+//
+#define IDS_INVALIDWINDOW       32709
+#define IDS_INVALIDCHILDWINDOW  32708
+#define IDS_INVALIDCLIENTWINDOW 32707
+
+//
+// TXWindow messages
+//
+#define IDS_CLASSREGISTERFAIL   32749
+#define IDS_CHILDREGISTERFAIL   32748
+#define IDS_WINDOWCREATEFAIL    32747
+#define IDS_WINDOWEXECUTEFAIL   32746
+#define IDS_CHILDCREATEFAIL     32745
+
+#define IDS_MENUFAILURE         32744
+#define IDS_VALIDATORSYNTAX     32743
+#define IDS_PRINTERERROR        32742
+
+#define IDS_LAYOUTINCOMPLETE    32741
+#define IDS_LAYOUTBADRELWIN     32740
+
+//
+// TXGdi messages
+//
+#define IDS_GDIFAILURE          32739
+#define IDS_GDIALLOCFAIL        32738
+#define IDS_GDICREATEFAIL       32737
+#define IDS_GDIRESLOADFAIL      32736
+#define IDS_GDIFILEREADFAIL     32735
+#define IDS_GDIDELETEFAIL       32734
+#define IDS_GDIDESTROYFAIL      32733
+#define IDS_INVALIDDIBHANDLE    32732
+
+
+//
+// Printing error message string resource IDs (include/owl/printer.rh)
+//
+#define IDS_PRNON               32590
+#define IDS_PRNERRORTEMPLATE    32591
+#define IDS_PRNOUTOFMEMORY      32592
+#define IDS_PRNOUTOFDISK        32593
+#define IDS_PRNCANCEL           32594
+#define IDS_PRNMGRABORT         32595
+#define IDS_PRNGENERROR         32596
+#define IDS_PRNERRORCAPTION     32597
+
+
+//
+// Printer abort dialog & control IDs
+//
+#define IDD_ABORTDIALOG         32599            // keep different than any string IDs
+#define ID_TITLE                101              // Document title text control
+#define ID_DEVICE               102              // Device & optional port text control
+#define ID_PORT                 103              // Old port text control, unused
+#define ID_PAGE                 104              // Page # text control
+
+
+//
+// Print Preview
+//
+#define APX_PPR_PREVIOUS        24500
+#define APX_PPR_NEXT            24501
+#define APX_PPR_ONEUP           24502
+#define APX_PPR_TWOUP           24503
+#define APX_PPR_CURRPAGE        24504
+#define APX_PPR_DONE            24505
+
+
+//
+// TInputDialog DIALOG resource (include/owl/inputdia.rh)
+//
+#define IDD_INPUTDIALOG         32514
+#define ID_PROMPT               4091
+#define ID_INPUT                4090
+
+
+//
+// TSlider bitmaps (horizontal and vertical) (include/owl/slider.rh)
+//
+#define IDB_HSLIDERTHUMB        32000
+#define IDB_VSLIDERTHUMB        32001
+
+
+//
+// Validation messages (include/owl/validate.rh)
+//
+#define IDS_VALPXPCONFORM       32520
+#define IDS_VALINVALIDCHAR      32521
+#define IDS_VALNOTINRANGE       32522
+#define IDS_VALNOTINLIST        32523
+
+
+#endif  // polymain_rh
